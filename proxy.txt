@@ -1,0 +1,19 @@
+
+# # Proxy Created
+
+
+1. proxy = hexa_filter
+2. proxy = def received_from(connection)
+3. proxy = def request_handler(buffer) # modified block
+4. proxy = def response_hadler(buffer) # modified block
+5. proxy = proxy_handler(client_socket,remote_host,remote_port,receive_first)
+6. proxy = server_loop
+7. proxy = main()
+		if len(sys.argv[1:]) !=5:
+			print()
+			print()
+			print()
+			sys.exit(0)
+
+
+
